@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 //Services
 
 import  { CustomerService } from './customer.service';
+import { CustomerComponent } from './customer/customer.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
